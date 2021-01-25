@@ -81,6 +81,4 @@
 ## 其他人修改
 咻咻咻
 
-git init
-git add .
-git commit -m ''
+
