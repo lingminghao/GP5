@@ -74,6 +74,13 @@
 - git pull 先跟新到本地
 - git push 提交到远程仓库
 
-
 ## 修改关联
-。。。。。。。。。。
+- git remote rm origin
+- git remote add origin ssh地址
+
+## 其他人修改
+咻咻咻
+
+git init
+git add .
+git commit -m ''
