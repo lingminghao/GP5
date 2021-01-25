@@ -50,12 +50,12 @@
 - git log
 - git reflog
 
-# 版本回退
+## 版本回退
 - git reset --hard^ 回退到上一个版本
 - git reset --hard 版本号 回退到指定版本
 - 注意把当前代码先提交到本地仓库
 
-# 查看变动
+## 查看变动
 - git diff 文件名
 - 会列出该文件前后差异
 
@@ -72,3 +72,5 @@
 - git add . 提交到暂存区
 - git commit =m '注释' 提交到本地仓库
 - git push 提交到远程仓库
+
+## 修改关联
