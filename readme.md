@@ -51,5 +51,24 @@
 - git reflog
 
 # 版本回退
-- git reset --hard^
-- git reset --hard 版本号
+- git reset --hard^ 回退到上一个版本
+- git reset --hard 版本号 回退到指定版本
+- 注意把当前代码先提交到本地仓库
+
+# 查看变动
+- git diff 文件名
+- 会列出该文件前后差异
+
+
+## 创建远程仓库
+- 进入 github官网
+- 创建一个新的远程仓库
+
+## 将本地仓库与 远程仓库关联
+- git remote add origin 你的远程仓库地址
+- git remote -v 设置默认的提交地址和分支
+
+## 正常提交（非第一次提交）
+- git add . 提交到暂存区
+- git commit =m '注释' 提交到本地仓库
+- git push 提交到远程仓库
