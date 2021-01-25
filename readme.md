@@ -37,4 +37,19 @@
 - 将代码从暂存区提交到本地仓库
 - git status 查看状态：工作区 是干净的，没有任何东西可提交
 
+## 查看
+1. git init
+2. git add .
+3. git commit -m
 
+## 查看状态
+- git status
+- 查看工作区和暂存区的状态（增删改）
+
+## 查看日子
+- git log
+- git reflog
+
+# 版本回退
+- git reset --hard^
+- git reset --hard 版本号
